@@ -90,8 +90,8 @@ export function Hero() {
                 <div className="w-5 h-5 border-2 border-white rounded-full border-t-transparent animate-spin" />
              </div>
              <div className="space-y-1">
-              <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-500">Analiza AI</div>
-              <div className="text-sm font-bold">Weryfikacja profilu...</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-500">Satysfakcja</div>
+              <div className="text-sm font-bold">+42% NPS</div>
             </div>
           </div>
         </div>
