@@ -1,4 +1,4 @@
-import { ArrowRight, UserPlus, LayoutDashboard, FileSignature, Image as ImageIcon } from "lucide-react";
+import { ArrowRight, UserPlus, LayoutDashboard, FileSignature, ThumbsUp, Image as ImageIcon } from "lucide-react";
 import Link from "next/link";
 
 export function Hero() {
@@ -87,7 +87,7 @@ export function Hero() {
 
           <div className="absolute -bottom-6 -right-6 bg-black text-white p-4 rounded-2xl shadow-2xl flex items-center gap-4 animate-bounce-subtle-delayed">
              <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center">
-                <div className="w-5 h-5 border-2 border-white rounded-full border-t-transparent animate-spin" />
+                <ThumbsUp size={20} className="text-white" />
              </div>
              <div className="space-y-1">
               <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-500">Satysfakcja</div>
