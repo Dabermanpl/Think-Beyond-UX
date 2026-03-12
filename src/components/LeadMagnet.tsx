@@ -17,11 +17,11 @@ export function LeadMagnet() {
                 </span>
               </div>
               
-              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[1.1] font-medium tracking-tight">
+              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-text-primary">
                 Zobacz, jak Uniwersytet SWPS przeszedł na cyfrową obsługę.
               </h2>
               
-              <p className="font-body text-lg text-zinc-500 max-w-xl leading-relaxed">
+              <p className="font-body text-base md:text-lg text-text-muted max-w-xl leading-relaxed">
                 Transformacja pozwoliła uczelni zrezygnować z tradycyjnych metod opartych na papierze na rzecz technologii. Każdy wniosek, każde zaświadczenie, każda komunikacja — w pełni cyfrowa.
               </p>
             </div>

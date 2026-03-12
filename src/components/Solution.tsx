@@ -27,11 +27,11 @@ export function Solution() {
   return (
     <section id="solutions" className="py-24 px-6 bg-zinc-50">
       <div className="max-w-7xl mx-auto space-y-16">
-        <div className="text-center space-y-4">
-          <h2 className="font-display text-4xl md:text-5xl text-text-primary font-medium">
+        <div className="max-w-4xl mx-auto text-center space-y-4">
+          <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight tracking-tight text-text-primary">
             Wydajność i nowoczesność dostępna od dziś
           </h2>
-          <p className="font-body text-text-muted max-w-2xl mx-auto">
+          <p className="font-body text-base md:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
             Nasze rozwiązania łączą potęgę Salesforce z najlepszymi praktykami w UX, aby stworzyć uniwersytet jutra.
           </p>
         </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="relative pt-32 pb-20 px-6 overflow-hidden bg-white">
+    <section className="relative pt-32 pb-24 px-6 overflow-hidden bg-white">
       {/* Background Decor */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none">
         <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-zinc-50 rounded-full blur-3xl opacity-50" />
@@ -19,11 +19,11 @@ export function Hero() {
               </span>
             </div>
 
-            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[1.05] font-bold tracking-tight text-black">
+            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[1.1] font-bold tracking-tight text-text-primary">
               Nowoczesna rekrutacja i obsługa studenta.
             </h1>
             
-            <p className="font-body text-lg md:text-xl text-zinc-500 max-w-xl leading-relaxed">
+            <p className="font-body text-base md:text-lg text-text-muted max-w-xl leading-relaxed">
               Zbuduj cyfrowy uniwersytet, który przyciąga kandydatów, eliminuje papierowe procesy i skraca czas odpowiedzi.
             </p>
 

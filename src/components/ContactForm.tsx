@@ -6,7 +6,7 @@ export function ContactForm() {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-start">
         <div className="space-y-12">
           <div className="space-y-6">
-            <h2 className="font-display text-4xl md:text-5xl text-text-primary font-medium leading-[1.15]">
+            <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight tracking-tight text-text-primary">
               Najlepsze projekty zaczynają się od dokładnej analizy potrzeb.
             </h2>
           </div>

@@ -22,8 +22,8 @@ export function ProblemStorytelling() {
   return (
     <section id="problems" className="py-24 px-6">
       <div className="max-w-7xl mx-auto space-y-16">
-        <div className="max-w-3xl">
-          <h2 className="font-display text-4xl md:text-5xl text-text-primary leading-tight font-medium">
+        <div className="max-w-4xl mx-auto text-center space-y-4">
+          <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight tracking-tight text-text-primary">
             Dlaczego tradycyjne podejście do obsługi studenta już nie wystarcza?
           </h2>
         </div>
