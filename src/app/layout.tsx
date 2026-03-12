@@ -19,7 +19,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Salesforce Partner | Nowoczesna rekrutacja i obsługa studenta",
+  title: "Edu Cloud Partner | Nowoczesna rekrutacja i obsługa studenta",
   description: "Zbuduj cyfrowy uniwersytet, który przyciąga kandydatów, eliminuje papierowe procesy i skraca czas odpowiedzi.",
 };
 

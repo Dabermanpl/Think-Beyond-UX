@@ -12,13 +12,13 @@ export function Footer() {
               <div className="w-8 h-8 bg-zinc-800 border border-zinc-700 rounded-lg flex items-center justify-center">
                 <Cloud size={18} className="text-zinc-400" />
               </div>
-              <span className="font-display text-xl font-bold tracking-tight">EduCloudPartner</span>
+              <span className="font-display text-xl font-bold tracking-tight">Edu Cloud Partner</span>
             </div>
             <p className="font-body text-sm text-zinc-400 leading-relaxed max-w-[240px]">
               Autoryzowany Partner Salesforce specjalizujący się w transformacji cyfrowej uczelni wyższych.
             </p>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-zinc-900 border border-zinc-800 rounded-lg text-[10px] font-bold uppercase tracking-widest text-zinc-400">
-              ☁ Salesforce Partner
+              ☁ Edu Cloud Partner
             </div>
             <div className="flex items-center gap-3">
               <Link href="#" className="w-8 h-8 bg-zinc-900 border border-zinc-800 rounded-lg flex items-center justify-center hover:bg-zinc-800 transition-colors">
@@ -70,7 +70,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-zinc-900 flex flex-col md:row items-center justify-between gap-6">
           <p className="font-body text-xs text-zinc-500">
-            © 2026 EduCloudPartner. Wszelkie prawa zastrzeżone.
+            © 2026 Edu Cloud Partner. Wszelkie prawa zastrzeżone.
           </p>
           <div className="flex gap-8">
             <Link href="#" className="font-body text-xs text-zinc-500 hover:text-white transition-colors">Polityka prywatności</Link>

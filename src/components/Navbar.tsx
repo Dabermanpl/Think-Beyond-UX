@@ -6,7 +6,7 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-bg-page/80 backdrop-blur-md border-b border-border-muted h-20">
       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
         <Link href="/" className="font-body font-bold text-xl tracking-tight text-text-primary">
-          Salesforce Partner
+          Edu Cloud Partner
         </Link>
         
         <div className="hidden md:flex items-center gap-8">

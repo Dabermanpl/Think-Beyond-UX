@@ -15,7 +15,7 @@ export function Hero() {
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-zinc-50 border border-zinc-200 rounded-full">
               <div className="w-1.5 h-1.5 bg-zinc-400 rounded-full" />
               <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-zinc-600">
-                Salesforce Partner · Higher Education
+                Edu Cloud Partner · Higher Education
               </span>
             </div>
 
