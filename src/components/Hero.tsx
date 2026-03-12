@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2, Image as ImageIcon } from "lucide-react";
+import { ArrowRight, UserPlus, LayoutDashboard, FileSignature, Image as ImageIcon } from "lucide-react";
 import Link from "next/link";
 
 export function Hero() {
@@ -29,13 +29,13 @@ export function Hero() {
 
             <ul className="space-y-3 pt-2">
               {[
-                "Pełna automatyzacja procesu rekrutacji",
-                "Obsługa studenta 360 w jednym widoku",
-                "E-podpis i obieg dokumentów"
+                { text: "Pełna automatyzacja procesu rekrutacji", icon: <UserPlus size={18} className="text-black" /> },
+                { text: "Obsługa studenta 360 w jednym widoku", icon: <LayoutDashboard size={18} className="text-black" /> },
+                { text: "E-podpis i obieg dokumentów", icon: <FileSignature size={18} className="text-black" /> }
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-zinc-600 font-medium text-sm">
-                  <CheckCircle2 size={18} className="text-black" />
-                  {item}
+                  {item.icon}
+                  {item.text}
                 </li>
               ))}
             </ul>

@@ -1,21 +1,21 @@
-import { Share2, Smartphone, ShieldCheck, Headphones } from "lucide-react";
+import { Zap, Orbit, Fingerprint, Headphones } from "lucide-react";
 
 export function Solution() {
   const solutions = [
     {
       title: "Platforma rekrutacyjna",
       description: "Zdalny proces od A do Z. Kandydat przesyła dokumenty online, a system automatycznie weryfikuje ich poprawność. Koniec z kolejkami.",
-      icon: <Share2 size={24} />,
+      icon: <Zap size={24} />,
     },
     {
       title: "Centrum Spraw Studenckich 360°",
       description: "Jeden widok na wszystkie interakcje studenta. Szybka obsługa wniosków, pism i zaświadczeń w jednym zintegrowanym systemie.",
-      icon: <Smartphone size={24} />,
+      icon: <Orbit size={24} />,
     },
     {
       title: "E-podpis & Cyfrowe procesy",
       description: "Pełna automatyzacja wydawania decyzji i zaświadczeń. Bezpieczny e-podpis eliminuje potrzebę papierowego obiegu dokumentów.",
-      icon: <ShieldCheck size={24} />,
+      icon: <Fingerprint size={24} />,
     },
     {
       title: "Dedykowane Call Center",

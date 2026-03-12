@@ -1,21 +1,21 @@
-import { FileText, Users, Monitor } from "lucide-react";
+import { FileStack, Network, Smartphone } from "lucide-react";
 
 export function ProblemStorytelling() {
   const painPoints = [
     {
       title: "Papierologia i kolejki",
       description: "Tysiące papierowych wniosków, które gubią się w obiegu i zmuszają studentów do stania w kolejkach do dziekanatu.",
-      icon: <FileText className="text-primary" size={24} />,
+      icon: <FileStack className="text-primary" size={24} />,
     },
     {
       title: "Chaos komunikacyjny",
       description: "Informacje rozproszone po wielu systemach, Excelach i mailach. Brak jednego źródła prawdy o kandydacie.",
-      icon: <Users className="text-primary" size={24} />,
+      icon: <Network className="text-primary" size={24} />,
     },
     {
       title: "Ograniczona samoobsługa",
       description: "Student musi przyjść osobiście, by załatwić prostą sprawę. Brak nowoczesnych narzędzi mobilnych.",
-      icon: <Monitor className="text-primary" size={24} />,
+      icon: <Smartphone className="text-primary" size={24} />,
     },
   ];
 
