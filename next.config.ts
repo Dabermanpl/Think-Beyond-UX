@@ -8,14 +8,6 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   experimental: {},
-  turbopack: {
-    rules: {
-      'tsx': {
-        loaders: ['@locator/webpack-loader'],
-        as: 'tsx',
-      },
-    },
-  },
 };
 
 export default nextConfig;
