@@ -80,8 +80,8 @@ export function Hero() {
               <div className="w-5 h-5 bg-black rounded flex items-center justify-center text-[10px] text-white">✓</div>
             </div>
             <div className="space-y-1">
-              <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Status</div>
-              <div className="text-sm font-bold text-black">Aplikacja Przyjęta</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Czas obsługi</div>
+              <div className="text-sm font-bold text-black">-68% zapytań</div>
             </div>
           </div>
 
