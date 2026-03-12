@@ -4,6 +4,7 @@ import { SocialProof } from "@/components/SocialProof";
 import { ProblemStorytelling } from "@/components/ProblemStorytelling";
 import { Solution } from "@/components/Solution";
 import { LeadMagnet } from "@/components/LeadMagnet";
+import { AboutUs } from "@/components/AboutUs";
 import { ContactForm } from "@/components/ContactForm";
 import { Footer } from "@/components/Footer";
 import { AIChat } from "@/components/AIChat";
@@ -17,6 +18,7 @@ export default function Home() {
       <ProblemStorytelling />
       <Solution />
       <LeadMagnet />
+      <AboutUs />
       <ContactForm />
       <Footer />
       <AIChat />
