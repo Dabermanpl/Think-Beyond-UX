@@ -85,13 +85,13 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="absolute -bottom-6 -right-6 bg-black text-white p-4 rounded-2xl shadow-2xl flex items-center gap-4 animate-bounce-subtle-delayed">
-             <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center">
-                <ThumbsUp size={20} className="text-white" />
+          <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-2xl border border-zinc-100 shadow-xl flex items-center gap-4 animate-bounce-subtle-delayed">
+             <div className="w-10 h-10 bg-zinc-50 rounded-xl flex items-center justify-center">
+                <ThumbsUp size={20} className="text-black" />
              </div>
              <div className="space-y-1">
-              <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-500">Satysfakcja</div>
-              <div className="text-sm font-bold">+42% NPS</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Satysfakcja</div>
+              <div className="text-sm font-bold text-black">+42% NPS</div>
             </div>
           </div>
         </div>
