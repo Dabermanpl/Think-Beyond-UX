@@ -80,8 +80,8 @@ export function Hero() {
               <ClockArrowDown size={20} />
             </div>
             <div className="space-y-1">
-              <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Czas obsługi</div>
-              <div className="text-sm font-bold text-black">-68% zapytań</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Efektywność</div>
+              <div className="text-sm font-bold text-black">Znaczna redukcja czasu obsługi</div>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ export function Hero() {
              </div>
              <div className="space-y-1">
               <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Satysfakcja</div>
-              <div className="text-sm font-bold text-black">+42% NPS</div>
+              <div className="text-sm font-bold text-black">Wzrost satysfakcji kandydatów</div>
             </div>
           </div>
         </div>

@@ -42,17 +42,17 @@ export function LeadMagnet() {
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { label: "Cyfrowe procesy", value: "100%", icon: <CheckCircle size={20} className="text-black" /> },
-                { label: "Formularzy papierowych", value: "0", icon: <FileX size={20} className="text-black" /> },
-                { label: "Szybsza obsługa", value: "3×", icon: <Zap size={20} className="text-black" /> },
-                { label: "Mniej zapytań e-mail", value: "68%", icon: <MailX size={20} className="text-black" /> },
+                { label: "Doskonałość cyfrowa", value: "Cyfrowe procesy", icon: <CheckCircle size={20} className="text-black" /> },
+                { label: "Transformacja", value: "Brak papieru", icon: <FileX size={20} className="text-black" /> },
+                { label: "Wydajność", value: "Szybsza obsługa", icon: <Zap size={20} className="text-black" /> },
+                { label: "Komunikacja", value: "Odciążenie admin.", icon: <MailX size={20} className="text-black" /> },
               ].map((stat, i) => (
                 <div key={i} className="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl space-y-3">
                   <div className="flex items-center justify-between">
-                    <div className="font-display text-4xl font-bold tracking-tight">{stat.value}</div>
+                    <div className="font-display text-lg font-bold tracking-tight leading-tight">{stat.value}</div>
                     {stat.icon}
                   </div>
-                  <div className="font-body text-xs text-zinc-500 font-medium uppercase tracking-wide">{stat.label}</div>
+                  <div className="font-body text-[10px] text-zinc-500 font-medium uppercase tracking-wide">{stat.label}</div>
                 </div>
               ))}
             </div>

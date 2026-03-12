@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Linkedin, Twitter, Cloud } from "lucide-react";
+import { Linkedin, Twitter, GraduationCap } from "lucide-react";
 
 export function Footer() {
   return (
@@ -10,7 +10,7 @@ export function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-zinc-800 border border-zinc-700 rounded-lg flex items-center justify-center">
-                <Cloud size={18} className="text-zinc-400" />
+                <GraduationCap size={18} className="text-zinc-400" />
               </div>
               <span className="font-display text-xl font-bold tracking-tight">Edu Cloud Partner</span>
             </div>
@@ -18,7 +18,8 @@ export function Footer() {
               Autoryzowany Partner Salesforce specjalizujący się w transformacji cyfrowej uczelni wyższych.
             </p>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-zinc-900 border border-zinc-800 rounded-lg text-[10px] font-bold uppercase tracking-widest text-zinc-400">
-              ☁ Edu Cloud Partner
+              <GraduationCap size={12} className="text-zinc-500" />
+              Edu Cloud Partner
             </div>
             <div className="flex items-center gap-3">
               <Link href="#" className="w-8 h-8 bg-zinc-900 border border-zinc-800 rounded-lg flex items-center justify-center hover:bg-zinc-800 transition-colors">

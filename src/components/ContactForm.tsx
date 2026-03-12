@@ -51,30 +51,27 @@ export function ContactForm() {
             </div>
 
             <div className="space-y-2">
-              <label className="font-mono text-[10px] font-bold uppercase tracking-wider text-text-muted">Wybierz temat rozmowy</label>
-              <div className="relative group">
-                <select className="w-full h-12 px-4 pr-10 appearance-none bg-white rounded-lg border border-border-muted focus:border-black focus:ring-1 focus:ring-black outline-none transition-all font-body text-sm text-text-muted cursor-pointer">
-                  <option value="">Wybierz z listy</option>
-                  <option value="rekrutacja">Platforma Rekrutacyjna</option>
-                  <option value="obsluga">Obsługa Studenta 360</option>
-                  <option value="procesy">Automatyzacja i E-podpis</option>
-                  <option value="konfiguracja">Konsultacja Techniczna</option>
-                </select>
-                <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-text-muted group-hover:text-black transition-colors">
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            <div className="space-y-2">
               <label className="font-mono text-[10px] font-bold uppercase tracking-wider text-text-muted">O czym chcesz porozmawiać?</label>
               <textarea 
                 rows={4}
                 className="w-full p-4 rounded-lg border border-border-muted focus:border-black focus:ring-1 focus:ring-black outline-none transition-all font-body text-sm resize-none bg-white"
                 placeholder="Krótki opis Twojego wyzwania..."
               ></textarea>
+            </div>
+
+            <div className="flex items-start gap-3 py-2">
+              <div className="flex items-center h-5">
+                <input
+                  id="gdpr"
+                  name="gdpr"
+                  type="checkbox"
+                  required
+                  className="w-4 h-4 border-zinc-300 rounded text-black focus:ring-black cursor-pointer"
+                />
+              </div>
+              <label htmlFor="gdpr" className="text-xs text-zinc-500 leading-relaxed cursor-pointer select-none">
+                Akceptuję politykę prywatności i wyrażam zgodę na przetwarzanie danych w celu obsługi zapytania.
+              </label>
             </div>
 
             <button className="w-full py-4 bg-black text-white rounded-pill font-bold shadow-lg hover:translate-y-[-2px] hover:shadow-xl transition-all active:scale-[0.98]">
