@@ -1,4 +1,4 @@
-import { ArrowRight, UserPlus, LayoutDashboard, FileSignature, ThumbsUp, Image as ImageIcon } from "lucide-react";
+import { ArrowRight, UserPlus, LayoutDashboard, FileSignature, ThumbsUp, ClockArrowDown, Image as ImageIcon } from "lucide-react";
 import Link from "next/link";
 
 export function Hero() {
@@ -76,8 +76,8 @@ export function Hero() {
 
           {/* Floating UI Elements */}
           <div className="absolute -top-6 -left-6 bg-white p-4 rounded-2xl border border-zinc-100 shadow-xl flex items-center gap-4 animate-bounce-subtle">
-            <div className="w-10 h-10 bg-zinc-50 rounded-xl flex items-center justify-center">
-              <div className="w-5 h-5 bg-black rounded flex items-center justify-center text-[10px] text-white">✓</div>
+            <div className="w-10 h-10 bg-zinc-50 rounded-xl flex items-center justify-center text-black">
+              <ClockArrowDown size={20} />
             </div>
             <div className="space-y-1">
               <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Czas obsługi</div>
