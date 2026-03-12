@@ -10,6 +10,9 @@ export function Navbar() {
         </Link>
         
         <div className="hidden md:flex items-center gap-8">
+          <Link href="#problems" className="text-sm font-medium text-text-muted hover:text-black transition-colors">
+            Problem
+          </Link>
           <Link href="#solutions" className="text-sm font-medium text-text-muted hover:text-black transition-colors">
             Rozwiązania
           </Link>

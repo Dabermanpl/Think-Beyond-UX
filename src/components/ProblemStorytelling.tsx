@@ -20,7 +20,7 @@ export function ProblemStorytelling() {
   ];
 
   return (
-    <section className="py-24 px-6">
+    <section id="problems" className="py-24 px-6">
       <div className="max-w-7xl mx-auto space-y-16">
         <div className="max-w-3xl">
           <h2 className="font-display text-4xl md:text-5xl text-text-primary leading-tight font-medium">

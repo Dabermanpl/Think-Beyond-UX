@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Think-Beyond-UX: B2B Landing Page for Salesforce Partner
 
-## Getting Started
+Przejrzysta i nowoczesna makieta UX (wireframe) dla Partnera Salesforce, dedykowana sektorowi szkolnictwa wyższego (Higher Education).
 
-First, run the development server:
+## Wizja Projektu
+Projekt skupia się na pokazaniu wartości transformacji cyfrowej uczelni poprzez wdrożenie systemów Salesforce. Całość została utrzymana w **minimalistycznej, monochromatycznej estetyce UX**, która podkreśla strukturę treści i czytelność procesów, nie rozpraszając użytkownika zbędnymi kolorami.
 
+## Kluczowe Sekcje
+- **Hero Section**: Jasny przekaz wartości z listą benefitów i dualnym CTA.
+- **Problem Storytelling**: Identyfikacja kluczowych wyzwań uczelni (papierologia, chaos, brak samoobsługi).
+- **Solution Grid**: Prezentacja modularnych rozwiązań (Rekrutacja, Student 360, E-podpis).
+- **Lead Magnet (Case Study)**: Rozbudowana sekcja studium przypadku (SWPS University) z realnymi danymi i statystykami.
+- **Contact Form**: Intuicyjny formularz z dynamicznym wyborem tematów rozmowy.
+- **Footer**: Kompleksowa stopka z pełnym sitemapem i social media.
+
+## Tech Stack
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS v4 (Custom Tokens)
+- **Icons**: Lucide React
+- **Typography**: Newsreader (Display) & Inter (Body)
+- **Aesthetic**: Monochrome / Grayscale Wireframe
+
+## Rozpoczęcie pracy
+Najpierw zainstaluj zależności:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Następnie uruchom serwer deweloperski:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Otwórz [http://localhost:3000](http://localhost:3000) w przeglądarce, aby zobaczyć rezultat.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Projekt stworzony w ramach strategii **Think Beyond UX**.
