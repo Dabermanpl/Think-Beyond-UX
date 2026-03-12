@@ -21,6 +21,25 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Edu Cloud Partner | Nowoczesna rekrutacja i obsługa studenta",
   description: "Zbuduj cyfrowy uniwersytet, który przyciąga kandydatów, eliminuje papierowe procesy i skraca czas odpowiedzi.",
+  keywords: ["Salesforce Higher Education", "transformacja cyfrowa uczelni", "rekrutacja studentów", "Service Cloud", "Experience Cloud", "Edu Cloud Partner"],
+  authors: [{ name: "Think Beyond UX" }],
+  openGraph: {
+    title: "Edu Cloud Partner | Nowoczesna rekrutacja i obsługa studenta",
+    description: "Zbuduj cyfrowy uniwersytet, który przyciąga kandydatów, eliminuje papierowe procesy i skraca czas odpowiedzi.",
+    url: "https://dabermanpl.github.io/Think-Beyond-UX/",
+    siteName: "Edu Cloud Partner",
+    locale: "pl_PL",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Edu Cloud Partner | Nowoczesna rekrutacja i obsługa studenta",
+    description: "Zbuduj cyfrowy uniwersytet, który przyciąga kandydatów, eliminuje papierowe procesy i skraca czas odpowiedzi.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
