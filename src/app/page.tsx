@@ -6,6 +6,7 @@ import { Solution } from "@/components/Solution";
 import { LeadMagnet } from "@/components/LeadMagnet";
 import { ContactForm } from "@/components/ContactForm";
 import { Footer } from "@/components/Footer";
+import { AIChat } from "@/components/AIChat";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <LeadMagnet />
       <ContactForm />
       <Footer />
+      <AIChat />
     </main>
   );
 }
