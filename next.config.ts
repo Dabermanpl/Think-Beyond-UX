@@ -7,6 +7,15 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {},
+  turbopack: {
+    rules: {
+      'tsx': {
+        loaders: ['@locator/webpack-loader'],
+        as: 'tsx',
+      },
+    },
+  },
 };
 
 export default nextConfig;

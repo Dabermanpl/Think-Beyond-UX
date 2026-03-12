@@ -6,7 +6,9 @@ import setupLocator from "@locator/runtime";
 export function LocatorJS() {
   useEffect(() => {
     if (process.env.NODE_ENV === "development") {
-      setupLocator();
+      setupLocator({
+        projectPath: "/Users/emilianstorta/Downloads/Think Beyond UX/Think Beyond UX B2B",
+      });
     }
   }, []);
 
