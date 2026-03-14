@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { GraduationCap, Menu, X } from "lucide-react";
+import { GraduationCap, Menu, X, Check } from "lucide-react";
 
 export function Navbar() {
   const [activeSection, setActiveSection] = useState("");
@@ -63,9 +63,12 @@ export function Navbar() {
         <div className="flex items-center gap-2 sm:gap-4">
           <Link
             href="#contact"
-            className="bg-black text-white px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-xs font-bold hover:bg-zinc-800 transition-all shadow-lg hover:shadow-black/20 whitespace-nowrap"
+            className="bg-black text-white px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-xs font-bold hover:bg-zinc-800 transition-all shadow-lg hover:shadow-black/20 whitespace-nowrap flex items-center gap-2 group/btn"
           >
             Darmowa konsultacja
+            <div className="w-4 h-4 bg-white/20 rounded-full flex items-center justify-center group-hover/btn:bg-white/30 transition-colors">
+              <Check size={10} strokeWidth={3} className="text-white" />
+            </div>
           </Link>
 
           <button
