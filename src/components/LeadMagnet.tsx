@@ -38,14 +38,14 @@ export function LeadMagnet() {
             </div>
           </div>
 
-          <div className="space-y-8">
+          <div className="space-y-8 relative z-10">
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { label: "Doskonałość cyfrowa", value: "Cyfrowe procesy", icon: <CheckCircle size={20} className="text-black" /> },
-                { label: "Transformacja", value: "Brak papieru", icon: <FileX size={20} className="text-black" /> },
-                { label: "Wydajność", value: "Szybsza obsługa", icon: <Zap size={20} className="text-black" /> },
-                { label: "Komunikacja", value: "Odciążenie admin.", icon: <MailX size={20} className="text-black" /> },
+                { label: "Doskonałość cyfrowa", value: "Cyfrowe procesy", icon: <CheckCircle size={24} strokeWidth={2.5} color="black" /> },
+                { label: "Transformacja", value: "Brak papieru", icon: <FileX size={24} strokeWidth={2.5} color="black" /> },
+                { label: "Wydajność", value: "Szybsza obsługa", icon: <Zap size={24} strokeWidth={2.5} color="black" /> },
+                { label: "Komunikacja", value: "Odciążenie admin.", icon: <MailX size={24} strokeWidth={2.5} color="black" /> },
               ].map((stat, i) => (
                 <div key={i} className="bg-zinc-50 border border-zinc-100 p-6 rounded-2xl space-y-3">
                   <div className="flex items-center justify-between">

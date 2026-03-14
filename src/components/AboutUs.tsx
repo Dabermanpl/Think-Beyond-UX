@@ -26,15 +26,20 @@ export function AboutUs() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-8 pt-4">
-              <div className="space-y-2">
-                <div className="text-2xl font-bold text-black border-l-2 border-black pl-4">Wielka Czwórka</div>
-                <div className="text-xs text-zinc-500 uppercase tracking-widest pl-4">Doświadczenie PwC</div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-2xl font-bold text-black border-l-2 border-black pl-4">Direct Access</div>
-                <div className="text-xs text-zinc-500 uppercase tracking-widest pl-4">Kontakt z ekspertem</div>
-              </div>
+            <div className="pt-4">
+              <a 
+                href="https://thinkbeyond.cloud/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-4 bg-black text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-zinc-800 hover:scale-[1.02] shadow-xl hover:shadow-black/20"
+              >
+                <img 
+                  src="https://thinkbeyond.cloud/wp-content/uploads/2023/11/LOGO_TB.svg" 
+                  alt="Think Beyond" 
+                  className="w-8 h-8 invert brightness-0"
+                />
+                <span>Sprawdź w czym mozemy Ci pomóc</span>
+              </a>
             </div>
           </div>
 
@@ -49,7 +54,7 @@ export function AboutUs() {
               
               <div className="relative z-10 flex flex-col items-center gap-6 text-zinc-200">
                 <div className="w-24 h-24 bg-zinc-50 border border-zinc-100 rounded-full flex items-center justify-center">
-                  <Users size={48} strokeWidth={1} />
+                  <Users size={48} strokeWidth={2.5} color="black" />
                 </div>
                 <div className="text-center space-y-1">
                   <div className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-400">Team Photo Placeholder</div>
@@ -64,7 +69,7 @@ export function AboutUs() {
                   <div className="text-[10px] font-medium text-zinc-500 uppercase tracking-widest">Relacje {" > "} Handlowcy</div>
                 </div>
                 <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center text-white">
-                  <Users size={16} />
+                  <Users size={16} strokeWidth={2.5} />
                 </div>
               </div>
             </div>

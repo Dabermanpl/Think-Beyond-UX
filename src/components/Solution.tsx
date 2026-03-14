@@ -5,22 +5,22 @@ export function Solution() {
     {
       title: "Platforma rekrutacyjna",
       description: "Zdalny proces od A do Z. Kandydat przesyła dokumenty online, a system automatycznie weryfikuje ich poprawność. Koniec z kolejkami.",
-      icon: <Zap size={24} />,
+      icon: <Zap size={24} strokeWidth={2.5} color="black" />,
     },
     {
       title: "Centrum Spraw Studenckich 360°",
       description: "Jeden widok na wszystkie interakcje studenta. Szybka obsługa wniosków, pism i zaświadczeń w jednym zintegrowanym systemie.",
-      icon: <Orbit size={24} />,
+      icon: <Orbit size={24} strokeWidth={2.5} color="black" />,
     },
     {
       title: "E-podpis & Cyfrowe procesy",
       description: "Pełna automatyzacja wydawania decyzji i zaświadczeń. Bezpieczny e-podpis eliminuje potrzebę papierowego obiegu dokumentów.",
-      icon: <Fingerprint size={24} />,
+      icon: <Fingerprint size={24} strokeWidth={2.5} color="black" />,
     },
     {
       title: "Dedykowane Call Center",
       description: "Błyskawiczna odpowiedź na pytania kandydatów dzięki integracji z Genesys Cloud. Student zawsze wie, na jakim etapie jest jego sprawa.",
-      icon: <Headphones size={24} />,
+      icon: <Headphones size={24} strokeWidth={2.5} color="black" />,
     },
   ];
 

@@ -10,7 +10,7 @@ export function Hero() {
       </div>
 
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center relative z-10">
-        <div className="space-y-10">
+        <div className="space-y-10 relative z-10">
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-zinc-50 border border-zinc-200 rounded-full">
               <div className="w-1.5 h-1.5 bg-zinc-400 rounded-full" />
@@ -29,9 +29,9 @@ export function Hero() {
 
             <ul className="space-y-3 pt-2">
               {[
-                { text: "Pełna automatyzacja procesu rekrutacji", icon: <UserPlus size={18} className="text-black" /> },
-                { text: "Obsługa studenta 360 w jednym widoku", icon: <LayoutDashboard size={18} className="text-black" /> },
-                { text: "E-podpis i obieg dokumentów", icon: <FileSignature size={18} className="text-black" /> }
+                { text: "Pełna automatyzacja procesu rekrutacji", icon: <UserPlus size={18} strokeWidth={2.5} color="black" /> },
+                { text: "Obsługa studenta 360 w jednym widoku", icon: <LayoutDashboard size={18} strokeWidth={2.5} color="black" /> },
+                { text: "E-podpis i obieg dokumentów", icon: <FileSignature size={18} strokeWidth={2.5} color="black" /> }
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-zinc-600 font-medium text-sm">
                   {item.icon}
@@ -58,7 +58,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative group">
+        <div className="relative group z-10">
           {/* Main Visual Placeholder */}
           <div className="relative aspect-[4/3] bg-zinc-50 rounded-[32px] border-2 border-zinc-100 p-2 shadow-2xl transition-transform group-hover:scale-[1.02] duration-500">
             <div className="w-full h-full bg-white rounded-[24px] border border-zinc-100 flex flex-col overflow-hidden">
@@ -77,7 +77,7 @@ export function Hero() {
           {/* Floating UI Elements */}
           <div className="absolute -top-6 -left-6 bg-white p-4 rounded-2xl border border-zinc-100 shadow-xl flex items-center gap-4 animate-bounce-subtle">
             <div className="w-10 h-10 bg-zinc-50 rounded-xl flex items-center justify-center text-black">
-              <ClockArrowDown size={20} />
+              <ClockArrowDown size={20} strokeWidth={2.5} />
             </div>
             <div className="space-y-1">
               <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Efektywność</div>
@@ -87,7 +87,7 @@ export function Hero() {
 
           <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-2xl border border-zinc-100 shadow-xl flex items-center gap-4 animate-bounce-subtle-delayed">
              <div className="w-10 h-10 bg-zinc-50 rounded-xl flex items-center justify-center">
-                <ThumbsUp size={20} className="text-black" />
+                <ThumbsUp size={20} strokeWidth={2.5} className="text-black" />
              </div>
              <div className="space-y-1">
               <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Satysfakcja</div>
