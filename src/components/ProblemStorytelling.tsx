@@ -5,17 +5,17 @@ export function ProblemStorytelling() {
     {
       title: "Papierologia i kolejki",
       description: "Tysiące papierowych wniosków, które gubią się w obiegu i zmuszają studentów do stania w kolejkach do dziekanatu.",
-      icon: <FileStack color="black" size={24} strokeWidth={2.5} />,
+      icon: <FileStack size={24} strokeWidth={2.5} />,
     },
     {
       title: "Chaos komunikacyjny",
       description: "Informacje rozproszone po wielu systemach, Excelach i mailach. Brak jednego źródła prawdy o kandydacie.",
-      icon: <Network color="black" size={24} strokeWidth={2.5} />,
+      icon: <Network size={24} strokeWidth={2.5} />,
     },
     {
       title: "Ograniczona samoobsługa",
       description: "Student musi przyjść osobiście, by załatwić prostą sprawę. Brak nowoczesnych narzędzi mobilnych.",
-      icon: <Smartphone color="black" size={24} strokeWidth={2.5} />,
+      icon: <Smartphone size={24} strokeWidth={2.5} />,
     },
   ];
 

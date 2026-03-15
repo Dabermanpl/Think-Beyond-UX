@@ -1,6 +1,6 @@
-# Think-Beyond-UX: B2B Landing Page for Edu Cloud Partner
+# Think-Beyond-UX: B2B Landing Page for Education Cloud
 
-Przejrzysta i nowoczesna makieta UX (wireframe) dla Edu Cloud Partner, dedykowana sektorowi szkolnictwa wyższego (Higher Education).
+Przejrzysta i nowoczesna makieta UX (wireframe) dla Education Cloud, dedykowana sektorowi szkolnictwa wyższego (Higher Education).
 
 ## Wizja Projektu
 Projekt skupia się na pokazaniu wartości transformacji cyfrowej uczelni poprzez wdrożenie systemów Salesforce. Całość została utrzymana w **minimalistycznej, monochromatycznej estetyce UX**, która podkreśla strukturę treści i czytelność procesów, nie rozpraszając użytkownika zbędnymi kolorami.

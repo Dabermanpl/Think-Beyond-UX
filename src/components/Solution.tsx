@@ -29,10 +29,10 @@ export function Solution() {
       <div className="max-w-7xl mx-auto space-y-16">
         <div className="max-w-4xl mx-auto text-center space-y-4">
           <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight tracking-tight text-text-primary">
-            Wydajność i nowoczesność dostępna od dziś
+            Zastąp chaos jednym, płynnie działającym ekosystemem.
           </h2>
           <p className="font-body text-base md:text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
-            Nasze rozwiązania łączą potęgę Salesforce z najlepszymi praktykami w UX, aby stworzyć uniwersytet jutra.
+            Łączymy potęgę Salesforce z naszym doświadczeniem, aby odciążyć Twoją administrację i dać studentom komfort, jakiego oczekują.
           </p>
         </div>
 

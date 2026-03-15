@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { GraduationCap, Menu, X, Check } from "lucide-react";
+import { Cloud, Menu, X, ArrowRight } from "lucide-react";
 
 export function Navbar() {
   const [activeSection, setActiveSection] = useState("");
@@ -42,10 +42,21 @@ export function Navbar() {
   return (
     <nav className="fixed top-6 left-0 right-0 z-50 px-6 pointer-events-none">
       <div className="max-w-7xl mx-auto bg-white/90 backdrop-blur-md border border-zinc-200 h-16 rounded-full shadow-2xl px-6 flex items-center justify-between pointer-events-auto">
-        <Link href="/" className="flex items-center gap-2 transition-transform hover:scale-105 active:scale-95 group">
-          <GraduationCap size={28} className="text-black" />
-          <span className="font-display text-lg font-bold tracking-tight text-black whitespace-nowrap hidden sm:block">Edu Cloud Partner</span>
-        </Link>
+        <a 
+          href="https://thinkbeyond.cloud/" 
+          className="flex items-center gap-4 transition-transform hover:scale-105 active:scale-95 group decoration-transparent no-underline"
+        >
+          <img 
+            src="/Think-Beyond-UX/logo.svg" 
+            alt="Think Beyond" 
+            className="h-8 md:h-10 w-auto transition-transform group-hover:scale-105 duration-300"
+          />
+          <div className="flex flex-col -space-y-1">
+            <span className="font-mono text-[9px] font-bold uppercase tracking-[0.15em] text-zinc-400">
+              Partner Salesforce
+            </span>
+          </div>
+        </a>
 
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
@@ -63,12 +74,10 @@ export function Navbar() {
         <div className="flex items-center gap-2 sm:gap-4">
           <Link
             href="#contact"
-            className="bg-black text-white px-4 sm:px-5 py-2 rounded-full text-[10px] sm:text-xs font-bold hover:bg-zinc-800 transition-all shadow-lg hover:shadow-black/20 whitespace-nowrap flex items-center gap-2 group/btn"
+            className="bg-black text-white px-5 py-3 rounded-full text-xs font-bold hover:bg-zinc-800 transition-all shadow-lg hover:shadow-black/20 whitespace-nowrap flex items-center gap-2 group/btn"
           >
             Darmowa konsultacja
-            <div className="w-4 h-4 bg-white/20 rounded-full flex items-center justify-center group-hover/btn:bg-white/30 transition-colors">
-              <Check size={10} strokeWidth={3} className="text-white" />
-            </div>
+            <ArrowRight size={16} strokeWidth={2.5} className="group-hover:translate-x-1 transition-transform" />
           </Link>
 
           <button

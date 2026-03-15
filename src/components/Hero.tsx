@@ -1,4 +1,4 @@
-import { ArrowRight, UserPlus, LayoutDashboard, FileSignature, ThumbsUp, ClockArrowDown, Image as ImageIcon } from "lucide-react";
+import { ArrowRight, UserPlus, LayoutDashboard, FileSignature, ThumbsUp, ClockArrowDown, Image as ImageIcon, MousePointer2 } from "lucide-react";
 import Link from "next/link";
 
 export function Hero() {
@@ -15,12 +15,12 @@ export function Hero() {
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-zinc-50 border border-zinc-200 rounded-full">
               <div className="w-1.5 h-1.5 bg-zinc-400 rounded-full" />
               <span className="font-mono text-[10px] font-bold uppercase tracking-wider text-zinc-600">
-                Edu Cloud Partner · Higher Education
+                Education Cloud · Higher Education
               </span>
             </div>
 
-            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[1.1] font-bold tracking-tight text-text-primary">
-              Nowoczesna rekrutacja i obsługa studenta.
+            <h1 className="font-display text-4xl md:text-5xl lg:text-5xl leading-[1.15] font-bold tracking-tight text-text-primary">
+              Koniec z papierologią. Zbuduj jeden spójny system dla dziekanatu i studentów.
             </h1>
             
             <p className="font-body text-base md:text-lg text-text-muted max-w-xl leading-relaxed">
@@ -29,7 +29,7 @@ export function Hero() {
 
             <ul className="space-y-3 pt-2">
               {[
-                { text: "Pełna automatyzacja procesu rekrutacji", icon: <UserPlus size={18} strokeWidth={2.5} color="black" /> },
+                { text: "Koniec z ręcznym przepisywaniem danych z rekrutacji", icon: <UserPlus size={18} strokeWidth={2.5} color="black" /> },
                 { text: "Obsługa studenta 360 w jednym widoku", icon: <LayoutDashboard size={18} strokeWidth={2.5} color="black" /> },
                 { text: "E-podpis i obieg dokumentów", icon: <FileSignature size={18} strokeWidth={2.5} color="black" /> }
               ].map((item, i) => (
@@ -46,14 +46,8 @@ export function Hero() {
               href="#contact" 
               className="bg-black text-white px-8 py-4 rounded-pill font-bold shadow-xl hover:bg-zinc-800 transition-all flex items-center justify-center gap-3 group"
             >
-              Porozmawiajmy o transformacji
+              Darmowa konsultacja
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-            </Link>
-            <Link 
-              href="#case-study" 
-              className="bg-white text-black border-2 border-zinc-200 px-8 py-4 rounded-pill font-bold hover:bg-zinc-50 transition-all flex items-center justify-center gap-3"
-            >
-              Zobacz Case Study
             </Link>
           </div>
         </div>
@@ -92,6 +86,33 @@ export function Hero() {
              <div className="space-y-1">
               <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-400">Satysfakcja</div>
               <div className="text-sm font-bold text-black">Wzrost satysfakcji kandydatów</div>
+            </div>
+          </div>
+
+          {/* Figma-style Collaborative Elements */}
+          {/* Avatar 1: Agata W. */}
+          <div className="absolute top-1/4 -left-12 flex flex-col items-start animate-float pointer-events-none">
+            <div className="w-8 h-8 rounded-full bg-zinc-200 border-2 border-white shadow-lg overflow-hidden flex items-center justify-center relative z-10 transition-transform hover:scale-110">
+              <span className="text-[10px] font-bold text-zinc-500">AW</span>
+            </div>
+            <div className="bg-white border border-zinc-100 p-3 rounded-2xl rounded-tl-none shadow-xl max-w-[180px] -mt-2 ml-4">
+              <p className="text-[11px] text-zinc-600 leading-snug">
+                "Zrozumienie procesów biznesowych."
+              </p>
+              <div className="mt-1 text-[8px] font-bold text-zinc-400 uppercase tracking-tight">Agata W. | SWPS</div>
+            </div>
+          </div>
+
+          {/* Avatar 2: Kamila D. */}
+          <div className="absolute top-1/2 -right-16 flex flex-col items-end animate-float-delayed pointer-events-none">
+            <div className="w-8 h-8 rounded-full bg-zinc-100 border-2 border-white shadow-lg overflow-hidden flex items-center justify-center relative z-10 transition-transform hover:scale-110">
+              <span className="text-[10px] font-bold text-zinc-500">KD</span>
+            </div>
+            <div className="bg-white border border-zinc-100 p-3 rounded-2xl rounded-tr-none shadow-xl max-w-[180px] -mt-2 mr-4">
+              <p className="text-[11px] text-zinc-600 leading-snug">
+                "Szybkie wdrożenie, pełne wsparcie."
+              </p>
+              <div className="mt-1 text-[8px] font-bold text-zinc-400 uppercase tracking-tight">Kamila D. | Dział HR</div>
             </div>
           </div>
         </div>

@@ -11,14 +11,14 @@
   --radius-card: 12px;
   --radius-pill: 32px;
   
-  --font-display: var(--font-newsreader);
+  --font-display: var(--font-inter);
   --font-body: var(--font-inter);
   --font-mono: var(--font-jetbrains-mono);
 }
 
 :root {
-  --background: #FAFAFA;
-  --foreground: #1A1A1A;
+  --background: #FFFFFF;
+  --foreground: #000000;
   scroll-behavior: smooth;
 }
 
@@ -26,4 +26,23 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-body), ui-sans-serif, system-ui;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+.animate-float-slow {
+  animation: float 8s ease-in-out infinite;
+  animation-delay: 1s;
 }
