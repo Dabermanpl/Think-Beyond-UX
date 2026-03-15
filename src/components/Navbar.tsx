@@ -42,7 +42,8 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-6 left-0 right-0 z-50 px-6 pointer-events-none">
+    <>
+      <nav className="fixed top-6 left-0 right-0 z-50 px-6 pointer-events-none">
       <div className="max-w-7xl mx-auto bg-white/90 backdrop-blur-md border border-zinc-200 h-16 rounded-full shadow-2xl px-6 flex items-center justify-between pointer-events-auto">
         <a 
           href="https://thinkbeyond.cloud/" 
@@ -110,8 +111,8 @@ export function Navbar() {
           ))}
         </div>
       </div>
-
-      <ConsultationModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </nav>
-  );
+    <ConsultationModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+  </>
+);
 }
