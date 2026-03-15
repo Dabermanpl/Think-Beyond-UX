@@ -1,8 +1,8 @@
-:HL["/Think-Beyond-UX/_next/static/chunks/755f150d63e2cf37.css","style"]
+:HL["/Think-Beyond-UX/_next/static/chunks/91c7cc39f41f647c.css","style"]
 :HL["/Think-Beyond-UX/_next/static/media/5f402bd2d8eef81a-s.p.b72f0478.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Think-Beyond-UX/_next/static/media/70bc3e132a0a741e-s.p.15008bfb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Think-Beyond-UX/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Think-Beyond-UX/_next/static/media/9433d1a810498265-s.p.8f3b692e.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Think-Beyond-UX/logo.svg","image"]
 :HL["https://thinkbeyond.cloud/wp-content/uploads/2023/11/LOGO_TB.svg","image"]
-0:{"buildId":"93301yhc2fi1MDN6eMls2","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"HWlkhGWKyd9BzFqpRuqq_","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
