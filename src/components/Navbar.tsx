@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Cloud, Menu, X, ArrowRight } from "lucide-react";
+import { Menu, X, ArrowRight } from "lucide-react";
+import ConsultationModal from "./ConsultationModal";
 
 export function Navbar() {
   const [activeSection, setActiveSection] = useState("");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
@@ -72,13 +74,13 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-4">
-          <Link
-            href="#contact"
+          <button
+            onClick={() => setIsModalOpen(true)}
             className="bg-black text-white px-5 py-3 rounded-full text-xs font-bold hover:bg-zinc-800 transition-all shadow-lg hover:shadow-black/20 whitespace-nowrap flex items-center gap-2 group/btn"
           >
             Darmowa konsultacja
             <ArrowRight size={16} strokeWidth={2.5} className="group-hover:translate-x-1 transition-transform" />
-          </Link>
+          </button>
 
           <button
             onClick={toggleMenu}
@@ -108,6 +110,8 @@ export function Navbar() {
           ))}
         </div>
       </div>
+
+      <ConsultationModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </nav>
   );
 }

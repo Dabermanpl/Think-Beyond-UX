@@ -136,7 +136,7 @@ export function ContactForm() {
                   />
                 </div>
                 <label htmlFor="gdpr" className="text-[11px] text-zinc-500 leading-relaxed cursor-pointer select-none">
-                  Akceptuję politykę prywatności i zgadzam się na przetwarzanie danych.
+                  Akceptuję <a href="/polityka-prywatnosci" className="underline hover:text-black transition-colors">politykę prywatności</a> i zgadzam się na przetwarzanie danych.
                 </label>
               </div>
 
@@ -144,7 +144,7 @@ export function ContactForm() {
                 type="submit"
                 className="w-full py-5 bg-black text-white rounded-full font-bold shadow-xl hover:bg-zinc-800 hover:translate-y-[-2px] transition-all flex items-center justify-center gap-3 group"
               >
-                <span className="relative">Wyślij zapytanie</span>
+                <span className="relative">Umów darmową konsultację</span>
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
             </form>

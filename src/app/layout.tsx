@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Newsreader, JetBrains_Mono } from "next/font/google";
+import ScrollToTop from "@/components/ScrollToTop";
 import "./globals.css";
 
 const inter = Inter({
@@ -53,6 +54,7 @@ export default function RootLayout({
         className={`${inter.variable} ${newsreader.variable} ${jetbrainsMono.variable} antialiased`}
       >
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );
