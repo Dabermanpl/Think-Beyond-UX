@@ -10,8 +10,8 @@ export function CaseStudy() {
   ];
 
   return (
-    <section id="case-study" className="py-24 px-6 bg-white">
-      <div className="max-w-[1400px] mx-auto bg-white border border-zinc-100 rounded-[60px] p-8 md:p-16 lg:p-24 shadow-sm relative overflow-hidden">
+    <section id="case-study" className="py-24 md:py-32 px-6 bg-white shrink">
+      <div className="max-w-7xl mx-auto bg-white border border-zinc-100 rounded-[40px] p-8 md:p-16 lg:p-24 shadow-2xl shadow-zinc-200/50 relative overflow-hidden">
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-start">
           
           {/* Left Column */}
@@ -24,20 +24,20 @@ export function CaseStudy() {
             </div>
 
             <div className="space-y-6">
-              <h2 className="font-display text-5xl md:text-6xl lg:text-[72px] font-bold leading-[1.05] tracking-tight text-black">
+              <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-black mb-8 leading-[1.15]">
                 Zobacz, jak SWPS uwolnił dziekanat od papierologii i kolejek.
               </h2>
-              <p className="font-body text-xl text-zinc-500 leading-relaxed max-w-lg">
-                Zastąpiliśmy ręczne procesy i tonę papieru jednym cyfrowym Centrum Spraw Studenckich
+              <p className="font-body text-base md:text-lg text-zinc-600 leading-relaxed max-w-lg">
+                Zastąpiliśmy ręczne procesy i tonę papieru jednym cyfrowym Centrum Spraw Studenckich.
               </p>
             </div>
 
             <Link 
               href="#contact"
-              className="inline-flex items-center gap-3 bg-black text-white px-10 py-5 rounded-full font-bold text-base hover:bg-zinc-800 transition-all shadow-2xl hover:shadow-black/20 group"
+              className="bg-black text-white px-8 py-4 rounded-full font-bold shadow-xl hover:bg-zinc-800 transition-all flex items-center justify-center gap-2 group/btn"
             >
               Poznaj szczegóły
-              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+              <ArrowRight size={20} className="group-hover/btn:translate-x-1 transition-transform" />
             </Link>
           </div>
 

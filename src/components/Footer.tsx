@@ -3,7 +3,7 @@ import { Linkedin, Cloud, Phone, Mail } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-black text-white pt-20 pb-10 px-6">
+    <footer className="bg-black text-white py-16 md:py-24 px-6">
       <div className="max-w-7xl mx-auto space-y-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand Column */}
@@ -12,7 +12,7 @@ export function Footer() {
               <img 
                 src="/Think-Beyond-UX/logo.svg" 
                 alt="Think Beyond" 
-                className="h-10 md:h-12 w-auto invert brightness-200"
+                className="h-8 md:h-10 w-auto invert brightness-200"
               />
             </a>
             <p className="font-body text-sm text-zinc-400 leading-relaxed max-w-[280px]">

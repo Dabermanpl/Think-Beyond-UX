@@ -43,7 +43,7 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
             <X size={24} />
           </button>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 min-h-[500px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-0 h-full">
             {/* Left Column: Direct Contact Card (Mirroring ContactForm.tsx Left) */}
             <div className="bg-zinc-50 p-8 md:p-12 border-b md:border-b-0 md:border-r border-zinc-100 flex flex-col justify-center space-y-10">
               <div className="space-y-6">
@@ -111,7 +111,7 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
             <div className="p-8 md:p-12 bg-white flex flex-col justify-center">
               <div className="space-y-8">
                 <div className="space-y-4">
-                  <h2 className="font-display text-4xl md:text-3xl font-bold tracking-tight text-text-primary">
+                  <h2 className="font-display text-3xl md:text-4xl font-bold tracking-tight text-text-primary mb-4 leading-tight">
                     Umów darmową konsultację
                   </h2>
                   <p className="font-body text-sm text-zinc-500 leading-relaxed">
@@ -167,10 +167,10 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
 
                   <button 
                     type="submit"
-                    className="w-full py-5 bg-black text-white rounded-full font-bold shadow-xl hover:bg-zinc-800 hover:translate-y-[-2px] transition-all flex items-center justify-center gap-3 group"
+                    className="w-full py-5 bg-black text-white rounded-full font-bold shadow-xl hover:bg-zinc-800 transition-all flex items-center justify-center gap-3 group/btn"
                   >
                     <span className="relative">Umów darmową konsultację</span>
-                    <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                    <ArrowRight size={20} className="group-hover/btn:translate-x-1 transition-transform" />
                   </button>
                 </form>
               </div>

@@ -20,10 +20,10 @@ export function ProblemStorytelling() {
   ];
 
   return (
-    <section id="problems" className="py-24 px-6">
+    <section id="problems" className="py-24 md:py-32 px-6">
       <div className="max-w-7xl mx-auto space-y-16">
-        <div className="max-w-4xl mx-auto text-center space-y-4">
-          <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight tracking-tight text-text-primary">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-text-primary mb-8 leading-[1.15]">
             Dlaczego tradycyjne podejście do obsługi studenta już nie wystarcza?
           </h2>
         </div>
@@ -32,14 +32,14 @@ export function ProblemStorytelling() {
           {painPoints.map((point, index) => (
             <div 
               key={index} 
-              className="p-8 bg-white border border-border-muted rounded-card space-y-6 hover:shadow-xl hover:border-black transition-all group"
+              className="p-8 bg-white border border-zinc-100 rounded-[32px] space-y-6 hover:shadow-2xl hover:shadow-zinc-200/50 hover:border-black transition-all group"
             >
               <div className="w-12 h-12 bg-zinc-100 rounded-lg flex items-center justify-center group-hover:bg-black group-hover:scale-110 transition-all [&_svg]:group-hover:text-white [&_svg]:text-black">
                 {point.icon}
               </div>
               <div className="space-y-3">
                 <h4 className="font-body font-bold text-xl text-text-primary">{point.title}</h4>
-                <p className="font-body text-text-muted leading-relaxed">
+                <p className="font-body text-zinc-600 leading-relaxed text-sm">
                   {point.description}
                 </p>
               </div>

@@ -8,17 +8,17 @@ export function AboutUs() {
   ];
 
   return (
-    <section id="about" className="py-24 px-6 bg-zinc-50 overflow-hidden">
+    <section id="about" className="py-24 md:py-32 px-6 bg-zinc-50 overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 md:gap-20 items-center">
           {/* Text Content */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight tracking-tight text-text-primary">
+              <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-text-primary mb-8 leading-[1.15]">
                 Poznaj ekspertów, którzy rozumieją Twój biznes
               </h2>
               
-              <p className="font-body text-base md:text-lg text-text-muted leading-relaxed">
+              <p className="font-body text-base md:text-lg text-zinc-600 leading-relaxed">
                 Jesteśmy butikową firmą doradczą założoną przez byłych architektów z Wielkiej Czwórki. 
                 Odrzucamy korporacyjny żargon. Wierzymy w partnerskie relacje, dlatego rozmawiasz bezpośrednio 
                 z inżynierami, którzy projektują cyfrowe rozwiązania dla Twojej uczelni, a nie z armią handlowców.

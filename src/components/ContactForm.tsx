@@ -2,15 +2,15 @@ import { ArrowRight, Phone, Mail, Linkedin, MessageSquare, Users } from "lucide-
 
 export function ContactForm() {
   return (
-    <section id="contact" className="py-24 px-6 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto space-y-16">
-        <div className="text-center space-y-4 max-w-3xl mx-auto">
-          <h2 className="font-display text-4xl md:text-5xl font-bold leading-tight tracking-tight text-text-primary">
+    <section id="contact" className="py-24 md:py-32 px-6 bg-white overflow-hidden">
+      <div className="max-w-7xl mx-auto space-y-20">
+        <div className="text-center max-w-3xl mx-auto">
+          <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-text-primary mb-8 leading-[1.15]">
             Porozmawiajmy o potrzebach Twojej uczelni
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 md:gap-20 items-start">
           {/* Left Side: Direct Contact Card (Optimized for Gutenberg Diagram) */}
           <div className="lg:sticky lg:top-32 space-y-8">
             <div className="bg-white p-10 rounded-[40px] border border-zinc-100 shadow-2xl shadow-zinc-200/50 space-y-10">
@@ -142,10 +142,10 @@ export function ContactForm() {
 
               <button 
                 type="submit"
-                className="w-full py-5 bg-black text-white rounded-full font-bold shadow-xl hover:bg-zinc-800 hover:translate-y-[-2px] transition-all flex items-center justify-center gap-3 group"
+                className="w-full py-5 bg-black text-white rounded-full font-bold shadow-xl hover:bg-zinc-800 transition-all flex items-center justify-center gap-3 group/btn"
               >
                 <span className="relative">Umów darmową konsultację</span>
-                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                <ArrowRight size={20} className="group-hover/btn:translate-x-1 transition-transform" />
               </button>
             </form>
           </div>
